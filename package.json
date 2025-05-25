@@ -15,8 +15,10 @@
     "framer-motion": "^12.12.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-modal": "^3.16.3",
     "react-router-dom": "^7.6.0",
     "react-swipeable": "^7.0.2",
+    "react-tinder-card": "^1.6.4",
     "tailwindcss": "^4.1.7"
   },
   "devDependencies": {

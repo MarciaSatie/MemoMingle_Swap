@@ -1,19 +1,15 @@
-
-import './App.css'
+// src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import CreateCard from './pages/CreateCard';
-import CollectionView from './pages/CollectionView';
+import Header from './components/Header';
+import Collection from './components/Collection';
+import collections from './model/memoData.json';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/create" element={<CreateCard />} />
-        <Route path="/collection" element={<CollectionView />} />
-      </Routes>
-    </Router>
+    <>
+      <Header />
+      <Collection collections={collections} />
+    </>
   );
 }
 

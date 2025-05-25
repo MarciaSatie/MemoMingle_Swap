@@ -4,8 +4,7 @@ import React, { useState, useEffect } from "react";
 import SwipeStack from "../components/SwipeStack";
 
 export default function Home() {
-  const [cards, setCards] = useState([]);
-  const [collected, setCollected] = useState([]);
+  
 
   useEffect(() => {
     const q = query(collection(db, "cards"), orderBy("createdAt", "desc"));

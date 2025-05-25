@@ -1,0 +1,50 @@
+[
+  {
+    "collection": "Bash",
+    "icon": "/src/assets/icon.png",
+    "cards": [
+      {
+        "index": 1000,
+        "title": "starting Bash",
+        "date": "25/05/2025",
+        "content": "bla bla bla"
+      },
+      {
+        "index": 1001,
+        "title": "doing Bash",
+        "date": "25/05/2025",
+        "content": "bla bla bla"
+      },
+       {
+        "index": 1002,
+        "title": "finishing Bash",
+        "date": "25/05/2025",
+        "content": "bla bla bla"
+      }
+    ]
+  },
+  {
+    "collection": "React",
+    "icon": "/src/assets/react-icon.png",
+    "cards": [
+      {
+        "index": 2000,
+        "title": "Intro to React",
+        "date": "20/04/2025",
+        "content": "Learn components and JSX."
+      }
+    ]
+  },
+  {
+    "collection": "JavaScript",
+    "icon": "/src/assets/js-icon.png",
+    "cards": [
+      {
+        "index": 3000,
+        "title": "JS Basics",
+        "date": "15/03/2025",
+        "content": "Variables, functions, and scope."
+      }
+    ]
+  }
+]
